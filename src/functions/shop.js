@@ -22,7 +22,7 @@ var shop = () => {
         <div className="shop-div" id="1" >
             <div className="div-item">
                 <div className="but">
-                    <h3>Dos Manos</h3>
+                    <h3>{items[0]}$</h3>
                     <h3>{prices[0]}$</h3>
                     <button title="buy" className="up" onClick={
                         () => {
@@ -36,64 +36,64 @@ var shop = () => {
             </div>
             <div className="div-item" id="2">
                 <div className="but">
-                    <h3>Aceite</h3>
-                    <h3>150$</h3>
+                     <h3>{items[1]}$</h3>
+                    <h3>{prices[1]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="3">
                 <div className="but">
-                    <h3>Dedos rapidos</h3>
-                    <h3>700$</h3>
+                <h3>{items[2]}$</h3>
+                    <h3>{prices[2]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="4">
                 <div className="but">
-                    <h3>Pellizco suave</h3>
-                    <h3>800$</h3>
+                <h3>{items[3]}$</h3>
+                    <h3>{prices[3]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="5">
                 <div className="but">
-                    <h3>Dedos Termicos</h3>
-                    <h3>1200$</h3>
+                <h3>{items[4]}$</h3>
+                    <h3>{prices[4]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="6">
                 <div className="but">
-                    <h3>Dedos Rapidos</h3>
-                    <h3>36700$</h3>
+                <h3>{items[5]}$</h3>
+                    <h3>{prices[5]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="7">
                 <div className="but">
-                    <h3>Masaje</h3>
-                    <h3>52000$</h3>
+                <h3>{items[6]}$</h3>
+                    <h3>{prices[6]}$</h3>
                     <button className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className= "div-item" id="8">
                 <div className="but">
-                    <h3>Manos Santas</h3>
-                    <h3>1000000$</h3>
+                <h3>{items[7]}$</h3>
+                    <h3>{prices[7]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>
             </div>
             <div className="div-item" id="9">
                 <div className="but">
-                    <h3>Tres Manos</h3>
-                    <h3>1000000$</h3>
+                    <h3>{items[8]}$</h3>
+                    <h3>{prices[8]}$</h3>
                     <button title="buy" className="up">Comprar</button>
                 <button className="up">Level Up</button>
                 </div>

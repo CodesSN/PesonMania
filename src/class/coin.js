@@ -1,4 +1,4 @@
-
+import axios from 'axios';
 class Coins{
     constructor(money,coin) {
     this.money = money;
@@ -6,6 +6,7 @@ class Coins{
   }
   
   setCoin(coin){
+    const setc = await axios.post();
     this.coin = (coin) ? coin : 1;
   }
 
