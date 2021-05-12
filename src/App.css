@@ -1,38 +1,128 @@
 .App {
-  text-align: center;
+  display:inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url(assets/Group\ 579.jpg);
+  background-color: rgb(34, 34, 34);
+  background-repeat: repeat;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.tittle{
+  text-align:center;
+  position:absolute;
+  width:100%;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+  top:0%;
+  left:50%;
+  transform: translate(-50%);
   color: white;
+  font-family: arial, helvetica, roboto, "new times roman", lato;
+}
+.svg{
+  position:relative;
+  width:170px;
+  top:12%;
+  left: -350px;
+}
+.tittle button{
+  position: relative;
+  top:-17px;
+  margin-left: 40px;
+  left: 400px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 100px
+}
+.shop-div{
+  position:absolute;
+  left: 0%;
+  display:inline-block;
+  top:90px;
+  width:35%;
+  height: 84.7%;
+  padding:0px;
+  margin:none;
+  background-color: rgb(247, 247, 247);
+}
+.stats{
+  position:absolute;
+  left: 77%;
+  top:90px;
+  transform: translate(-50%);
+  width:46%;
+  height: 84.7%;
+  background-color: rgb(243, 243, 243);
+}
+.pesons{
+  position:absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%);
+  width:30%;
+  height: 84.7%;
+  background-image: url(assets/skin.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: rgb(202, 184, 168);
+}
+.div-item{
+  display:block;
+  height:10.82%;
+  padding:0px;
+  margin:0;
+}
+.div-item button{
+position: relative;
+border:none;
+top:-20px;
+left:67%;
+margin-right:20px;
+height:30px;
+}
+.div-item h3{
+  position: relative;
+  left:10%;
+  color: rgb(87, 87, 87);
+  top:18px;
+  margin:0;
+}
+.peson{
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgba(136, 113, 94, 0.637);
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  border: none;
+}
+.peson1{
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  background-color: rgba(112, 94, 78, 0.521);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#coins-stats{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+  color: rgb(41, 41, 41);
+  font-size: 50px;
+  font-weight: 600;
+  position:absolute;
+  top:50%;
+  left: 65%;
+  transform: translate(-50%,-50%)
 }
