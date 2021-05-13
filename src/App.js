@@ -10,6 +10,23 @@ const baseurl = 'http://localhost:3001/'
 
 let coin = new Coins();
 
+function Login() {
+  console.log(coin.getMoney);
+  
+  async function pruebis(){
+      await axios.get(baseurl)
+      .then(response => { console.log(response) })
+      .catch(err => { console.log(err)})
+  }
+
+  pruebis();
+
+  return (
+    <div className="App">
+      
+    </div>
+  );
+}
 
 function App() {
   console.log(coin.getMoney);

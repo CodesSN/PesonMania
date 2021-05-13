@@ -6,24 +6,34 @@ class Coins{
   }
   
   setCoin(coin){
-    const setc = await axios.post();
-    this.coin = (coin) ? coin : 1;
   }
 
   getCoin(){
       return this.coin;
   }
 
-  setMoney(money){
-    this.money = (money)? money:0;
+  setMoney(amount){
+    save(amount)
   }
 
-  getMoney(){
-      return (this.money > 0)? this.money:0;
+  getMoney(id_user){
+    getMoney(id_user)
   }
 
   buy(price){
     this.money = this.money - price;
   }
+}
+
+async function getMoney(id_user) {
+  await axios.post('localhost:3001/coins/',id_user)
+  .then(response => { console.log(response) })
+  .catch(err => { console.log(err)})
+}
+
+async function save(amount) {
+  await axios.post('localhost:3001/coins/save',amount)
+  .then(response => { console.log(response) })
+  .catch(err => { console.log(err)})
 }
 export default Coins;
